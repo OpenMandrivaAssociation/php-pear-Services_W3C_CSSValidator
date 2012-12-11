@@ -62,3 +62,33 @@ fi
 %doc %{upstream_name}-%{version}/docs/*
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{upstream_name}.xml
+
+
+%changelog
+* Fri Dec 16 2011 Oden Eriksson <oeriksson@mandriva.com> 0.1.0-5mdv2012.0
++ Revision: 742276
+- fix major breakage by careless packager
+
+* Fri May 27 2011 Oden Eriksson <oeriksson@mandriva.com> 0.1.0-4
++ Revision: 679580
+- mass rebuild
+
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 0.1.0-3mdv2011.0
++ Revision: 613773
+- the mass rebuild of 2010.1 packages
+
+* Tue Nov 17 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.1.0-2mdv2010.1
++ Revision: 467082
+- spec cleanup
+- use pear installer
+- don't ship tests, even in documentation
+- own all directories
+- use rpm filetriggers starting from mandriva 2010.1
+
+* Fri Sep 25 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.1.0-1mdv2010.0
++ Revision: 449249
+- import php-pear-Services_W3C_CSSValidator
+
+
+* Fri Sep 25 2009 Guillaume Rousse <guillomovitch@mandriva.org> 0.1.0-1mdv2010.0
+- initial release
